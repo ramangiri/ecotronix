@@ -46,15 +46,15 @@ export function MainProductsSection() {
                                 <ul className="space-y-3 text-gray-600 font-light text-base md:text-lg leading-relaxed pl-10">
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        고해상도 카메라와 조명, 다각도 촬영 구조를 이용하여 부품·PCB·기구부품의 <br /> 이미지를 취득
+                                        <span className="text-wrap break-keep">고해상도 카메라와 조명, 다각도 촬영 구조를 이용하여 부품·PCB·기구부품의 <br /> 이미지를 취득</span>
                                     </li>
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        딥러닝 기반 알고리즘으로 불량(미삽, 오삽, 스크래치, 오염, 변형 등)을 자동 검출
+                                        <span className="text-wrap break-keep">딥러닝 기반 알고리즘으로 불량(미삽, 오삽, 스크래치, 오염, 변형 등)을 자동 검출</span>
                                     </li>
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        OK/NG 판정 뿐 아니라, 불량 위치 표시, 불량 유형 분류, 추세 분석 제공
+                                        <span className="text-wrap break-keep">OK/NG 판정 뿐 아니라, 불량 위치 표시, 불량 유형 분류, 추세 분석 제공</span>
                                     </li>
                                 </ul>
                             </div>
@@ -65,22 +65,18 @@ export function MainProductsSection() {
                                 <ul className="space-y-3 text-gray-600 font-light text-base md:text-lg leading-relaxed pl-10">
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                     
-                                            <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">PCB 제조:</span>
-                                            SMT 후 AOI 검사에서 발견되지 않은 미세한 불량을 2차 AI 검사에서 추가 검출
-                                        
+                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">PCB 제조:</span>
+                                        <span className="text-wrap break-keep">SMT 후 AOI 검사에서 발견되지 않은 미세한 불량을 2차 AI 검사에서 추가 검출</span>
                                     </li>
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                       
-                                            <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">기구 조립품:</span>
-                                            하우징 스크래치, 틀어짐, 간섭 등을 사람 대신 AI가 자동 검사
-                                       
+                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">기구 조립품:</span>
+                                        <span className="text-wrap break-keep">하우징 스크래치, 틀어짐, 간섭 등을 사람 대신 AI가 자동 검사</span>
                                     </li>
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                            <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">해양기기 최종검사:</span>
-                                            방수패킹 누락, 커넥터 결착 상태, 라벨 표기 등 외관 요소를 자동 검수하여 출하 품질 안정화
+                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">해양기기 최종검사:</span>
+                                        <span className="text-wrap break-keep">방수패킹 누락, 커넥터 결착 상태, 라벨 표기 등 외관 요소를 자동 검수하여 출하 품질 안정화</span>
                     
                                     </li>
                                 </ul>
@@ -151,18 +147,18 @@ export function MainProductsSection() {
                             {/* Use Cases */}
                             <div>
                                 <h5 className="text-xl font-medium text-gray-800 mb-4">사용 예시</h5>
-                                <p className="text-gray-600 font-light text-base md:text-lg leading-relaxed break-keep">
-                                    <ul className="space-y-3 text-gray-600 font-light text-base md:text-lg leading-relaxed pl-10">
-                                        <li className="flex items-start">
-                                            <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                            <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">전원모듈 수삽 :</span> 커넥터, 대형 콘덴서, 트랜스 등의 수삽을 로봇이 수행하고,납땜 전후를 비전으로 검사
-                                        </li>
-                                        <li className="flex items-start">
-                                            <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                            <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">해양장비 PCB :</span> 동일 라인에서 여러 모델을 생산하는 환경에서도, 레시피 전환만으로 다른 제품 수삽을 자동 처리
-                                        </li>
-                                    </ul>
-                                </p>
+                                <ul className="space-y-3 text-gray-600 font-light text-base md:text-lg leading-relaxed pl-10">
+                                    <li className="flex items-start">
+                                        <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
+                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">전원모듈 수삽 :</span>
+                                        <span className="text-wrap break-keep">커넥터, 대형 콘덴서, 트랜스 등의 수삽을 로봇이 수행하고,납땜 전후를 비전으로 검사</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
+                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">해양장비 PCB :</span>
+                                        <span className="text-wrap break-keep">동일 라인에서 여러 모델을 생산하는 환경에서도, 레시피 전환만으로 다른 제품 수삽을 자동 처리</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </motion.div>
