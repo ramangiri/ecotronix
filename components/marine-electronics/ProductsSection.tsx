@@ -214,16 +214,6 @@ export function ProductsSection() {
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
                                         <span className="text-wrap break-keep">어종·어군 크기 추정, 어군 레이어 깊이 표시 등 어획에 특화된 기능 사용 예시</span>
                                     </li>
-                                    <li className="flex items-start">
-                                        <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">근해 선망·트롤 :</span>
-                                        <span className="text-wrap break-keep">물때와 조류에 따라 이동하는 어군의 위치를 3D로 파악하여 <br /> 어획량을 극대화</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">레저 낚시 :</span>
-                                        <span className="text-wrap break-keep">인기 포인트 주변의 수중 지형을 저장하여, 다음 출항 시 개인 맞춤형 <br />포인트 지도로 재활용</span>
-                                    </li>
                                 </ul>
                             </div>
 
