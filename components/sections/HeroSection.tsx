@@ -103,7 +103,7 @@ export function HeroSection() {
                     {slides[currentSlide].id === 1 ? (
                       <div className="flex flex-col items-start text-left w-full">
                         <span className="block text-5xl md:text-6xl lg:text-7xl">Marine Equipment</span>
-                        <span className="block self-center mr-[25%] lg:mr-[28%] my-2 text-4xl md:text-5xl text-white/90">&amp;</span>
+                        <span className="block self-center mr-[25%] lg:mr-[28%] min-[2560px]:mr-[55%] my-2 text-4xl md:text-5xl text-white/90">&amp;</span>
                         <span className="block text-2xl md:text-4xl lg:text-[2.75rem] xl:text-5xl leading-tight">
                           MASS{" "}
                           <span className="block md:inline font-semibold text-xl md:text-2xl xl:text-3xl text-white/80">

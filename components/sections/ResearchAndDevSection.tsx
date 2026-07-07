@@ -8,7 +8,12 @@ const rdTabs = [
     id: 'iot',
     title: 'IoT Devices',
     color: '#000000',
-    heading: 'IoT Devices',
+    heading: (
+      <>
+        <span className="text-2xl md:text-3xl font-medium opacity-80 block mb-1">IoT 장치</span>
+        IoT Devices
+      </>
+    ),
     description: (
       <>
         Example of Experience<br />
@@ -120,7 +125,7 @@ export function ResearchAndDevSection() {
         </div>
 
         {/* Tabs Navigation */}
-        <div className="flex flex-wrap justify-center md:justify-between items-center mb-12 md:mb-45 lg:mb-58 xl:mb-35 mx-auto relative">
+        <div className="flex flex-wrap justify-center md:justify-between items-center mb-12 lg:mb-58 xl:mb-35 mx-auto relative">
           {/* Background Lines */}
           <div className="absolute bottom-[6px] left-0 right-0 h-[1px] bg-gray-300"></div>
           <div className="absolute bottom-0 left-0 right-0 h-[4px] bg-gray-200"></div>
@@ -160,7 +165,7 @@ export function ResearchAndDevSection() {
         {/* Tab Content */}
         <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 relative">
           {/* Left Content (Text) */}
-          <div className="flex flex-col relative z-20 justify-center min-h-[400px] lg:min-h-0 lg:h-full">
+          <div className="flex flex-col relative z-20 justify-center lg:min-h-[400px] lg:h-full">
             {/* Connecting Line to Image */}
             <div className="hidden lg:block absolute top-1/2 left-0 w-[calc(100%+6rem)] h-[1px] bg-gradient-to-r from-transparent to-gray-400 z-0">
               <div className="absolute right-0 top-1/2 w-[12px] h-[12px] rounded-full bg-gray-800 border-[2px] border-white transform translate-x-1/2 -translate-y-1/2 z-10 shadow-sm">
@@ -172,7 +177,7 @@ export function ResearchAndDevSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="relative z-10 lg:absolute lg:bottom-1/2 lg:left-0 w-full lg:pb-8 flex flex-col justify-end"
+              className="relative z-10 lg:absolute lg:bottom-1/2 lg:left-0 w-full flex flex-col justify-end"
             >
               <h3
                 className="text-5xl md:text-6xl font-medium tracking-tight mb-8 leading-[1.1]"

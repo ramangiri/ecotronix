@@ -286,9 +286,15 @@ export function ProductsSection() {
 
                             <div>
                                 <h4 className="text-lg font-semibold text-gray-900 mb-3">사용 예시</h4>
-                                <p className="text-gray-600 text-sm md:text-base leading-relaxed break-keep">
-                                    <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">항만 입·출항: </span> 시계가 나쁜 상황에서도 주변 선박과 구조물을 레이더·AIS로 동시에 모니터링 야간 조업: 레이더로 근처 선박과 지형을 확인하고, AIS로 선박 정보를 파악하여 충돌 및 접촉 사고 예방
-                                </p>
+                                <ul className="space-y-3 text-gray-600 text-sm md:text-base leading-relaxed pl-2">
+                                    <li className="flex items-start">
+                                        <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
+                                        
+                                            <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">항만 입·출항:</span>
+                                            시계가 나쁜 상황에서도 주변 선박과 구조물을 레이더·AIS로 동시에 모니터링 야간 조업: 레이더로 근처 선박과 지형을 확인하고, AIS로 선박 정보를 파악하여 충돌 및 접촉 사고 예방
+                                        
+                                    </li>
+                                </ul>
                             </div>
                         </motion.div>
                     </div>

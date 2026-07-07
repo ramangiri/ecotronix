@@ -95,26 +95,26 @@ export const Carousel: React.FC<CarouselProps> = ({
                 </div>
 
                 {/* Navigation Buttons */}
-                <div className="flex items-center gap-4 mt-8 md:mt-0">
+                <div className="flex items-center gap-3 md:gap-4 mt-[-16%] ml-[68%] md:mt-0 md:ml-0">
                     <button
                         onClick={() => scroll('left')}
                         disabled={currentIndex === 0}
-                        className={`w-14 h-14 rounded-full shadow-sm flex items-center justify-center transition-colors ${currentIndex === 0
+                        className={`w-10 h-10 md:w-14 md:h-14 rounded-full shadow-sm flex items-center justify-center transition-colors ${currentIndex === 0
                             ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
                             : 'bg-white text-gray-600 hover:bg-gray-50'
                             }`}
                     >
-                        <ChevronLeft className="w-6 h-6" />
+                        <ChevronLeft className="w-4 h-4 md:w-6 md:h-6" />
                     </button>
                     <button
                         onClick={() => scroll('right')}
                         disabled={currentIndex >= maxIndex}
-                        className={`w-14 h-14 rounded-full shadow-md flex items-center justify-center transition-colors ${currentIndex >= maxIndex
+                        className={`w-10 h-10 md:w-14 md:h-14 rounded-full shadow-md flex items-center justify-center transition-colors ${currentIndex >= maxIndex
                             ? 'bg-blue-300 text-white cursor-not-allowed'
                             : 'bg-[#1e6eaa] text-white hover:bg-blue-700'
                             }`}
                     >
-                        <ChevronRight className="w-6 h-6" />
+                        <ChevronRight className="w-4 h-4 md:w-6 md:h-6" />
                     </button>
                 </div>
             </div>
@@ -127,7 +127,7 @@ export const Carousel: React.FC<CarouselProps> = ({
                 style={{ gap: `${gap}px`, scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
                 {items.map((child, index) => (
-                    <div key={index} className={`${itemClassName} snap-start shrink-0`}>
+                    <div key={index} className={`${itemClassName} snap-start md:shrink-0`}>
                         {child}
                     </div>
                 ))}

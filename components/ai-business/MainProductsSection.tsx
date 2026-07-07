@@ -65,24 +65,23 @@ export function MainProductsSection() {
                                 <ul className="space-y-3 text-gray-600 font-light text-base md:text-lg leading-relaxed pl-10">
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        <span className="break-keep">
+                                     
                                             <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">PCB 제조:</span>
                                             SMT 후 AOI 검사에서 발견되지 않은 미세한 불량을 2차 AI 검사에서 추가 검출
-                                        </span>
+                                        
                                     </li>
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        <span className="break-keep">
+                                       
                                             <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">기구 조립품:</span>
                                             하우징 스크래치, 틀어짐, 간섭 등을 사람 대신 AI가 자동 검사
-                                        </span>
+                                       
                                     </li>
                                     <li className="flex items-start">
                                         <span className="mr-2 mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-400 shrink-0"></span>
-                                        <span className="break-keep">
                                             <span className="font-medium text-gray-700 mr-1 whitespace-nowrap">해양기기 최종검사:</span>
                                             방수패킹 누락, 커넥터 결착 상태, 라벨 표기 등 외관 요소를 자동 검수하여 출하 품질 안정화
-                                        </span>
+                    
                                     </li>
                                 </ul>
                             </div>
