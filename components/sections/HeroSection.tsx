@@ -88,8 +88,8 @@ export function HeroSection() {
         {/* Content Overlay */}
         <div className="absolute inset-0 z-20">
           {/* Left Content */}
-          <div className="absolute left-8 md:left-16 xl:left-24 top-[56%] md:top-1/2 -translate-y-1/2 right-8 md:right-16 xl:right-[calc(6rem+400px)] text-white">
-            <div className="w-full h-[300px] md:h-[340px] relative mb-10">
+          <div className="absolute left-8 md:left-16 lg:left-24 top-[56%] md:top-1/2 -translate-y-1/2 right-8 md:right-16 lg:right-[calc(6rem+400px)] text-white">
+            <div className={`w-full h-[300px] md:h-[340px] relative mb-10 ${slides[currentSlide].id === 1 ? 'lg:h-[490px] xl:h-[340px]' : ''}`}>
               <AnimatePresence mode="wait">
                 <motion.div
                   key={currentSlide}
@@ -102,7 +102,7 @@ export function HeroSection() {
                   <h1 className="text-5xl md:text-7xl font-medium mb-6 tracking-tight">
                     {slides[currentSlide].id === 1 ? (
                       <div className="flex flex-col items-start text-left w-full">
-                        <span className="block text-5xl md:text-6xl lg:text-7xl">Marine Equipment</span>
+                        <span className="block text-5xl md:text-6xl lg:text-[50px] xl:text-7xl">Marine Equipment</span>
                         <span className="block self-center mr-[25%] lg:mr-[55%] min-[2560px]:mr-[55%] my-2 text-4xl md:text-5xl text-white/90">&amp;</span>
                         <span className="block text-2xl md:text-4xl lg:text-[2.75rem] xl:text-5xl leading-tight">
                           MASS{" "}
@@ -133,7 +133,7 @@ export function HeroSection() {
           </div>
 
           {/* Right Content - Graphic & Stats Box */}
-          <div className="hidden xl:block absolute right-24 top-24 bottom-24 w-[400px]">
+          <div className="hidden lg:block absolute right-24 top-24 bottom-24 w-[400px]">
             <div className="w-full h-full border border-white/40  overflow-hidden relative flex flex-col justify-end">
               {/* Top left triangle */}
               <svg className="absolute top-8 left-8 w-8 h-8 text-white" viewBox="0 0 32 32" fill="currentColor">
