@@ -41,7 +41,7 @@ export function SubNavigation() {
                     </h1>
                 </button>
                 <nav className="hidden md:flex items-center gap-8">
-                    <a href="#goal" className={`text-sm transition-all duration-300 transform hover:scale-110 inline-block ${activeSection === 'goal' ? 'font-bold text-[#1e6eaa] scale-105' : 'font-medium text-gray-500 hover:text-[#1e6eaa]'}`}>목표</a>
+                    <a href="#goal" className={`text-sm transition-all duration-300 transform hover:scale-110 inline-block ${activeSection === 'goal' ? 'font-bold text-[#1e6eaa] scale-105' : 'font-medium text-gray-500 hover:text-[#1e6eaa]'}`}>사업 방향</a>
                     <a href="#products" className={`text-sm transition-all duration-300 transform hover:scale-110 inline-block ${activeSection === 'products' ? 'font-bold text-[#1e6eaa] scale-105' : 'font-medium text-gray-500 hover:text-[#1e6eaa]'}`}>주요 제품</a>
                     <a href="#technology" className={`text-sm transition-all duration-300 transform hover:scale-110 inline-block ${activeSection === 'technology' ? 'font-bold text-[#1e6eaa] scale-105' : 'font-medium text-gray-500 hover:text-[#1e6eaa]'}`}>주요 기술</a>
                     {/* <a href="#services" className={`text-sm transition-all duration-300 transform hover:scale-110 inline-block ${activeSection === 'services' ? 'font-bold text-[#1e6eaa] scale-105' : 'font-medium text-gray-500 hover:text-[#1e6eaa]'}`}>추가 서비스</a> */}
